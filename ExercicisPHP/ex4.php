@@ -1,4 +1,4 @@
-//EXERCICI 3
+//EXERCICI 4
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +8,8 @@
 </head>
 <body>
 <?php
-    for($i = 0; $i <=10; $i++){
-        echo "<br> 7 x $i = ". (7*$i). "</br>";
+    for($num = 0; $num <=10; $num++){
+        echo "$num -> <a href='https://es.wikipedia.org/wiki/$num'> https://es.wikipedia.org/wiki/$num</a><br>";
     }
 ?>
 </body>
